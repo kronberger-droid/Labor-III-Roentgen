@@ -8,7 +8,7 @@
   doc,
 ) = {
   set page(paper: "a4")
-  set text(lang: language, font: "New Computer Modern", size: 11pt)
+  set text(lang: language, font: "New Computer Modern", size: 10pt)
 
   set align(center)
 
@@ -64,12 +64,9 @@
   set par(justify: true)
 
   counter(page).update(1)
-  set page(
-    numbering: "1",
-    header: [
-      #set align(center)
-      Laboratory Work III - #title],
-  )
+  set page(numbering: "1", header: [
+    #set align(center)
+    Laboratory Work III - #title])
 
   doc
 }
