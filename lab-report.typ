@@ -8,7 +8,7 @@
   doc,
 ) = {
   set page(paper: "a4")
-  set text(lang: language, font: "New Computer Modern", size: 10pt)
+  set text(lang: language, font: "New Computer Modern", size: 11pt)
 
   set align(center)
 
